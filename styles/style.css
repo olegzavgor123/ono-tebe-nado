@@ -37,7 +37,6 @@
     width: 138px;
     height: 105px;
     margin: auto;
-    background-image: url("../images/logo-black.svg");
 }
 
 .contacts {
@@ -108,10 +107,13 @@ main {
 }
 
 .cover__description {
-    margin-top: 130px;
+    display: grid;
+    grid-template-columns: 646px 325px;
+    margin-top: 129px;
     margin-left: 28px;
     font-size: 22px;
     text-transform: uppercase;
+    align-items: center;
 }
 
 .cover__description-text {
@@ -120,13 +122,17 @@ main {
 }
 
 .bet-button {
+    justify-self: end;
+    text-decoration: none;
+    display: flex;
     width: 256px;
     height: 51px;
-    margin-left: 44px;
     border: #fff solid 1px;
     color: #fff;
     font-size: 22px;
     background-color: transparent;
+    align-items: center;
+    justify-content: center;
 }
 
 .bet-button a {
